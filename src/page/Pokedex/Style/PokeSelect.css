@@ -1,0 +1,11 @@
+.PokeSelect{
+    font-size: 1.2rem;
+    width: 350px;
+    border: 1px solid white;
+    box-shadow: 0 15px 25px rgba(128, 128, 128, 0.205);
+    padding: 10px;
+}
+
+.PokeSelect__item:focus{
+    background-color: rgba(175, 172, 172, 0.671);
+}

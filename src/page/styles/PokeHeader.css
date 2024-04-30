@@ -1,0 +1,34 @@
+header{
+    width: 100%;
+    height: 100px;
+    position: relative;
+    margin-bottom: 25px;
+}
+
+.header__img{
+    position: absolute;
+    width: 250px;
+    top: 15%;
+    left: 5%;
+}
+
+.red{
+    background-color: red;
+    height: 60px;
+}
+
+.black{
+    background-color: black;
+    height: 40px;
+}
+
+.header{
+    left: 90%;
+    top: 80%;
+}
+.circulo1{
+    width: 65px;
+}
+.circulo2{
+    width: 35px;
+}
