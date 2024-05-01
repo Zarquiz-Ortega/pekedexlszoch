@@ -1,0 +1,4 @@
+[[redirects]]
+  from = "/public/img/*"
+  to = "/img/:splat"
+  status = 200
