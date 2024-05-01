@@ -33,7 +33,13 @@
     justify-content: space-between;
 }
 
-@media screen and (min-width: 767px) {}
+.pokedex__pagination{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 35px;
+}
 
 @media screen and (min-width: 1024px) {
     .pokedex__formulario-int {

@@ -4,7 +4,7 @@
 }
 
 .pokeinfo {
-    margin: 60px 0;
+    margin: 60px 10px;
     padding: 10px;
     border: 2px solid white;
     border-radius: 10px;
@@ -170,12 +170,13 @@
 
 .pokeinfo__movements {
     padding: 50px 20px;
-    padding: 0 15;
+    border-radius: 10px;
     box-shadow: 0 15px 25px rgba(128, 128, 128, 0.205);
+    margin: 40px 10px;
 }
 
 .pokeinfo__list {
-    display: flex;  
+    display: flex;
     flex-wrap: wrap;
     gap: 15px;
 }
@@ -188,11 +189,324 @@
 
 
 /*==============GRASS=======================*/
-.grass>.pokeinfo__back {
+.grass>.pokeinfo__back,
+.pokeinfo-item-grass{
     background-image: linear-gradient(90deg, #C5DFA2 0%, #86CAC5 100%);
 }
 
+.pokeinfo-item-grass{
+    color: white;
+    padding: 5px 30px;
+    font-weight: bold;
+}
+
 .grass .pokeinfo__id,
-.pokeinfo__name {
+.grass .pokeinfo__name {
     color: #406460;
+}
+
+/*========================FIRE=======================*/
+
+.fire>.pokeinfo__back,
+.pokeinfo-item-fire {
+    background-image: linear-gradient(180deg, #E85D34 0%, #E68B1F 100%);
+}
+
+.pokeinfo-item-fire{
+    color: white;
+    padding: 5px 30px;
+    font-weight: bold;
+}
+
+.fire .pokeinfo__id,
+.fire .pokeinfo__name {
+    color: #E68423;
+}
+
+/*========================WATER=======================*/
+
+.water .pokeinfo__back,
+.pokeinfo-item-water {
+    background-image: linear-gradient(180deg, #145EBD 0%, #2E87F9 100%);
+}
+
+.pokeinfo-item-water{
+    color: white;
+    padding: 5px 30px;
+    font-weight: bold;
+}
+
+.water .pokeinfo__id,
+.water .pokeinfo__name{
+    color: #1479FB;
+}
+
+/*========================BUG=======================*/
+
+.bug .pokeinfo__back,
+.pokeinfo-item-bug {
+    background-image: linear-gradient(180deg, #41B73E 0%, #63CD61 100%);
+}
+
+.pokeinfo-item-bug{
+    color: white;
+    padding: 5px 30px;
+    font-weight: bold;
+}
+
+.bug .pokeinfo__id,
+.bug .pokeinfo__name{
+    color: #4AB648;
+}
+
+/*========================NORMAL=======================*/
+
+.normal .pokeinfo__back,
+.pokeinfo-item-normal {
+    background-image: linear-gradient(180deg, #7C555D 0%, #AE6675 100%);
+}
+
+.pokeinfo-item-normal{
+    color: white;
+    padding: 5px 30px;
+    font-weight: bold;
+}
+
+.normal .pokeinfo__id,
+.normal .pokeinfo__name {
+    color: #735259;
+}
+
+/*========================FIGHTING=======================*/
+
+
+.fighting .pokeinfo__back,
+.pokeinfo-item-fighting {
+    background-image: linear-gradient(180deg, #9E432C 0%, #CC5435 100%);
+}
+
+.pokeinfo-item-fighting{
+    color: white;
+    padding: 5px 30px;
+    font-weight: bold;
+}
+
+.fighting .pokeinfo__id,
+.fighting .pokeinfo__name {
+    color: #96402A;
+}
+
+/*========================POISON=======================*/
+
+.poison .pokeinfo__back,
+.pokeinfo-item-poison {
+    background-image: linear-gradient(180deg, #6E3E9D 0%, #B175EC 100%);
+}
+
+.pokeinfo-item-poison{
+    color: white;
+    padding: 5px 30px;
+    font-weight: bold;
+}
+
+.poison .pokeinfo__id,
+.poison .pokeinfo__name {
+    color: #5B3184;
+}
+
+/*========================GROUND=======================*/
+
+.ground .pokeinfo__back,
+.pokeinfo-item-ground {
+    background-image: linear-gradient(180deg, #764D11 0%, #B37C2B 100%);
+}
+
+.pokeinfo-item-ground{
+    color: white;
+    padding: 5px 30px;
+    font-weight: bold;
+}
+
+.ground .pokeinfo__id,
+.ground .pokeinfo__name {
+    color: #785827;
+}
+
+/*========================ROCK=======================*/
+
+.rock .pokeinfo__back,
+.pokeinfo-item-rock{
+    background-image: linear-gradient(180deg, #828284 0%, #B0B0B3 100%);
+}
+
+.pokeinfo-item-rock{
+    color: white;
+    padding: 5px 30px;
+    font-weight: bold;
+}
+
+.rock .pokeinfo__id,
+.rock .pokeinfo__name {
+    color: #7E7E7E;
+}
+
+/*========================GHOST=======================*/
+
+.ghost .pokeinfo__back,
+.pokeinfo-item-ghost {
+    background-image: linear-gradient(180deg, #383C7E 0%, #5A60BD 100%);
+}
+
+.pokeinfo-item-ghost{
+    color: white;
+    padding: 5px 30px;
+    font-weight: bold;
+}
+
+.ghost .pokeinfo__id,
+.ghost .pokeinfo__name  {
+    color: #323569;
+}
+
+/*========================STEEL=======================*/
+
+.steel .pokeinfo__back,
+.pokeinfo-item-steel {
+    background-image: linear-gradient(180deg, #687E76 0%, #8F9996 100%);
+}
+
+.pokeinfo-item-steel{
+    color: white;
+    padding: 5px 30px;
+    font-weight: bold;
+}
+
+.steel .pokeinfo__id,
+.steel .pokeinfo__name {
+    color: #5E736C;
+}
+
+/*========================ELECTRIC=======================*/
+
+.electric .pokeinfo__backm,
+.pokeinfo-item-electric {
+    background-image: linear-gradient(180deg, #192097 0%, #5055BC 100%);
+}
+
+.pokeinfo-item-electric{
+    color: white;
+    padding: 5px 30px;
+    font-weight: bold;
+}
+
+.electric .pokeinfo__id,
+.electric .pokeinfo__name {
+    color: #0C1395;
+}
+
+/*========================PSYCHIC=======================*/
+
+.psychic .pokeinfo__back {
+    background-image: linear-gradient(180deg, #DB3636 0%, #DF5C5C 100%);
+}
+
+.pokeinfo-item-psychic{
+    color: white;
+    padding: 5px 30px;
+    font-weight: bold;
+}
+
+.psychic .pokeinfo__id,
+.psychic .pokeinfo__name {
+    color: #DB3636;
+}
+
+/*========================ICE=======================*/
+
+.ice .pokeinfo__back,
+.pokeinfo-item-ice {
+    background-image: linear-gradient(180deg, #6BC3E8 0%, #91DBFA 100%);
+}
+
+.pokeinfo-item-ice{
+    color: white;
+    padding: 5px 30px;
+    font-weight: bold;
+}
+
+.ice .pokeinfo__id,
+.ice .pokeinfo__name {
+    color: #6BC3E8;
+}
+
+/*========================DRAGON=======================*/
+
+.dragon .pokeinfo__back,
+.pokeinfo-item-dragon{
+    background-image: linear-gradient(180deg, #4C939D 0%, #7BB1B8 100%);
+}
+
+.pokeinfo-item-dragon{
+    color: white;
+    padding: 5px 30px;
+    font-weight: bold;
+}
+
+.dragon .pokeinfo__id,
+.dragon .pokeinfo__name {
+    color: #579BA4;
+}
+
+/*========================DARK=======================*/
+
+.dark .pokeinfo__back,
+.pokeinfo-item-dark {
+    background-image: linear-gradient(180deg, #060A09 0%, #2E3231 100%);
+}
+
+.pokeinfo-item-dark{
+    color: white;
+    padding: 5px 30px;
+    font-weight: bold;
+}
+
+.dark .pokeinfo__id,
+.dark .pokeinfo__name{
+    color: #191C1B;
+}
+
+/*========================FAIRY=======================*/
+
+.fairy .pokeinfo__back,
+.pokeinfo-item-fairy {
+    background-image: linear-gradient(180deg, #f83777 0%, #f06f9a 100%);
+}
+
+.pokeinfo-item-fairy{
+    color: white;
+    padding: 5px 30px;
+    font-weight: bold;
+}
+
+.fairy .pokeinfo__id,
+.fairy .pokeinfo__name {
+    color: #f83777;
+}
+
+/*========================fFLYING=======================*/
+
+.flying .pokeinfo__back,
+.pokeinfo-item-flying {
+    background-image: linear-gradient(180deg, #4d67ff 0%, #379fe4 100%);
+}
+
+.pokeinfo-item-flying{
+    color: white;
+    padding: 5px 30px;
+    font-weight: bold;
+}
+
+.flying .pokeinfo__id,
+.flying .pokeinfo__name {
+    color: #4d67ff;
 }

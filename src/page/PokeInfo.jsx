@@ -49,7 +49,7 @@ const PokeInfo = () => {
                             <ul className='pokeinfo__type'>
                                 {
                                     pokemon?.types.map(type => (
-                                        <li className='pokeinfo-item' key={type.type.url} >
+                                        <li className={`pokeinfo-item-${type.type.name}`} key={type.type.url} >
                                             {type.type.name}
                                         </li>
                                     ))
