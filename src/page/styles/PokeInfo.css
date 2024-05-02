@@ -388,7 +388,7 @@
 
 /*========================ELECTRIC=======================*/
 
-.electric .pokeinfo__backm,
+.electric .pokeinfo__back,
 .pokeinfo-item-electric {
     background-image: linear-gradient(180deg, #192097 0%, #5055BC 100%);
 }
